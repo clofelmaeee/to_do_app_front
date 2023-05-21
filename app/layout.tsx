@@ -1,6 +1,6 @@
 'use client';
 import NavBar from '../components/NavBar';
-import Todo from './ToDo'
+import Todo from '../components/ToDo'
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -22,9 +22,9 @@ export default function RootLayout({
         
       <div >
 
-      <NavBar/>
-      <Todo/>
-      {/* <body className={inter.className}>{children}</body> */}
+      {/* <NavBar/>
+      <Todo/> */}
+      <p className={inter.className}>{children}</p>
     </div>
       </body>
     </html>
